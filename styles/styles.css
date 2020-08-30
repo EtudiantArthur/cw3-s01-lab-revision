@@ -1,0 +1,208 @@
+/* ------ SETTINGS ------ */
+
+/* font-family: 'Expletus Sans', cursive; */
+/* font-family: 'Rubik', sans-serif; */
+
+
+
+/* ------ GENERIC ------ */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+li{
+list-style: none;
+}
+
+h1, h2{
+    margin: 0;
+}
+
+/* ------ ELEMENTS ------ */
+
+body{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0;
+}
+
+a{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    text-decoration-line: none;
+
+    color: #2D2D2D;
+}
+
+a:hover{
+    text-decoration-line: underline;
+
+    color: #FFFCFC;
+}
+
+h1{
+    font-family: Expletus Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 125px;
+
+    color: #2D2D2D;
+}
+
+h2{
+    font-family: Expletus Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 83px;
+
+    color: #FFFFFF;
+}
+
+
+
+/* ------ COMPONENTS ------ */
+
+.conteneur{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.header-principal{
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    background: #FF9800;
+}
+
+.header-principal ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-principal li{
+    margin-left: 20px;
+
+}
+
+.hero{
+    align-items: center;
+    justify-content: center;
+    background-color: #FFC107;
+    display: flex;
+    min-height: 300px;
+}
+
+.hero h1{
+    padding: 88px 0;
+}
+
+
+/* ------ UTILITIES ------ */
+
+/*EN PRATIQUE*/
+.information{
+    margin: 30px 0;
+}
+
+.information .conteneur{
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteneur .content{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.carte{
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F0F0F0;
+}
+
+.carte h2{
+    padding: 58px 0;
+    text-align: center;
+}
+
+.carte .content{
+    padding: 20px;
+}
+
+.carte:nth-child(1) header{
+    background-color: #E34E26;
+}
+
+.carte:nth-child(2) header{
+    background-color: #0270BB;
+}
+
+.carte:nth-child(3) header{
+    background-color: #F8DC3D;
+}
+
+.carte-footer{
+
+display: flex;
+    justify-content: space-between;
+}
+
+.carte-footer span{
+    color: #E64A19;
+}
+
+.bouton{
+    padding: 10px;
+    background: #FFC107;
+    border: 1px solid #E64A19;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.bouton:hover{
+    padding: 10px;
+    background: #E64A19;
+    border: 1px solid #E64A19;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    text-decoration-line: none;
+}
+
+.footer-principal{
+    background-color: #E64A19;
+    padding: 4px 0;
+}
+
+.footer-principal h3{
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+/*EN PRATIQUE*/
